@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(180, 145, 100);
+}
+img{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1em;
+    padding-top: 2em;
+}
+h2{
+    margin-top: 2em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5em;  
+    justify-content: center;
+    align-items: center;
+    margin: 3em;
+    flex-wrap: wrap;
+}
+button{
+    background-color: rgb(180, 145, 100);
+    border: none;
+    border-radius: 0.2em;
+    font-size: 1rem;
+    padding: 1em 1em;
+    margin-bottom: 2em;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: rgb(180, 145, 100);
+}
+.visa-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left:1em;
+    margin-right:1em;
+    border-radius: 1em;
+    background-color: black;
+    color: white;
+}
+.visa-container:hover{
+    transition: transform 0.2s;
+    transform: translateY(-2em);
+}
+.visa-container p:first-of-type{
+    margin-top: -0.3em;
+}
+.visa-container .visa-validity{
+    margin-bottom: -0.8em;
+    margin-top: 1em;
+}
+.visa-container .max-stay{
+    margin-bottom: 2em;
+}
+.visa-container .application-time{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+p span{
+    font-size: 40px;
+    font-weight: 800;
+}
+i{
+    margin-left: 0.5em;
+}
+sup{
+    font-size: 22px;
+}
+.fa-check{
+    color: green;
+}
+.fa-xmark{
+    color: red;
+}
+@media(min-width: 768px){
+    .container{
+        flex-direction: row;
+        column-gap: 5em;  
+    }
+}
+
