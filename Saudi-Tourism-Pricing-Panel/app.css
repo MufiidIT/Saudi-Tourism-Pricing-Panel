@@ -3,12 +3,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(180, 145, 100);
 }
-img{
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 1em;
-    padding-top: 2em;
-}
 h2{
     margin-top: 2em;
 }
